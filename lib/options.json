@@ -1,0 +1,36 @@
+{
+  "type": "object",
+  "properties": {
+    "skipTraceIfBase64": {
+      "type": "boolean"
+    },
+    "turnPolicy": {
+      "type": "string"
+    },
+    "turdSize": {
+      "type": ["string", "number"]
+    },
+    "alphaMax": {
+      "type": ["string", "number"]
+    },
+    "optCurve": {
+      "type": "boolean"
+    },
+    "optTolerance": {
+      "type": ["string", "number"]
+    },
+    "threshold": {
+      "type": ["string", "number"]
+    },
+    "flipColors": {
+      "type": "boolean"
+    },
+    "color": {
+      "type": "string"
+    },
+    "background": {
+      "type": "string"
+    }
+  },
+  "additionalProperties": true
+}

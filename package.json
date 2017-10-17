@@ -1,0 +1,22 @@
+{
+  "name": "image-trace-loader",
+  "version": "0.0.1",
+  "description": "Loads images and exports traced outlines as image/svg+xml URL-encoded data",
+  "main": "lib",
+  "directories": {
+    "lib": "lib"
+  },
+  "author": "Emil Tholin @tholle1234",
+  "license": "MIT",
+  "repository": "EmilTholin/image-trace-loader",
+  "dependencies": {
+    "loader-utils": "^1.1.0",
+    "node-vibrant": "^3.0.0-alpha.2",
+    "potrace": "^2.1.1",
+    "schema-utils": "^0.3.0",
+    "svgo": "^0.7.2"
+  },
+  "peerDependencies": {
+    "file-loader": "*"
+  }
+}
