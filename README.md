@@ -67,7 +67,7 @@ The loader options allows you to specify values for all the parameters of the [P
 |Name|Type|Default|Description|
 |:--:|:--:|:-----:|:----------|
 |**`turnPolicy`**|`{String}`|`TURNPOLICY_MINORITY`|How to resolve ambiguities in path decomposition. Possible values are `TURNPOLICY_BLACK`, `TURNPOLICY_WHITE`, `TURNPOLICY_LEFT`, `TURNPOLICY_RIGHT`, `TURNPOLICY_MINORITY`, `TURNPOLICY_MAJORITY`. Refer to page 4 of [this document][potrace-algorithm] for more information|
-|**`turdSize`**|`{Number}`|`100`|Suppress speckles of up to this size. Larger values significantly reduce the size of the traced outline|
+|**`turnSize`**|`{Number}`|`100`|Suppress speckles of up to this size. Larger values significantly reduce the size of the traced outline|
 |**`alphaMax`**|`{Number}`|`1`|Corner threshold parameter. Lower values results in rougher edges, but significantly reduces the size of the traced outline|
 |**`optCurve`**|`{Boolean}`|`true`|Curve optimization|
 |**`optTolerance`**|`{Number}`|`0.2`|Curve optimization tolerance|
