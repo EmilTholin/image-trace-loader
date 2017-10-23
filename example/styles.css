@@ -1,0 +1,31 @@
+html,
+body {
+  margin: 0;
+  background-color: #2a2d37;
+}
+
+.image-wrapper {
+  position: relative;
+  display: inline-block;
+  width: 300px;
+  height: 300px;
+  vertical-align: top;
+}
+
+img {
+  max-width: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  transition: opacity 300ms;
+}
+
+.image {
+  opacity: 0;
+}
+
+.loaded {
+  opacity: 1;
+}
